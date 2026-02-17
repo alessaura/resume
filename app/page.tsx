@@ -108,8 +108,11 @@ export default function DesignerResume() {
                 <h3 className="font-bold mb-2">Cloud:</h3>
                 <p className="text-sm mb-4">AWS (CloudFront, Lambda, DynamoDB)</p>
 
+                <h3 className="font-bold mb-2">IA & Automação:</h3>
+                <p className="text-sm mb-4">IA Prompting, Programação LLM Determinística, n8n</p>
+
                 <h3 className="font-bold mb-2">Design:</h3>
-                <p className="text-sm mb-4">Figma (Expert), Wireframing, Testes A/B, Jornada do Usuário</p>
+                <p className="text-sm mb-4">Figma (Expert), Wireframing, Testes A/B, Jornada do Usuário, RD Station</p>
 
                 <h3 className="font-bold mb-2">Soft Skills:</h3>
                 <p className="text-sm">Gestão Ágil, Atendimento ao Cliente, Resolução de Problemas</p>
@@ -154,8 +157,9 @@ export default function DesignerResume() {
               <div className="w-16 h-2 bg-pink-400 mb-6 rounded-full"></div>
               <p className="text-sm leading-relaxed mb-6">
                 Profissional multifacetado com 3+ anos de experiência combinando desenvolvimento full stack (React.js,
-                PHP, Laravel, AWS) e design de UX/UI (Figma, testes A/B, jornada do usuário). Expertise em projetos
-                end-to-end, desde wireframes até infraestrutura cloud, com foco em performance e experiência intuitiva.
+                PHP, Laravel, AWS), design de UX/UI (Figma, testes A/B, jornada do usuário) e engenharia de prompts com IA. 
+                Expertise em projetos end-to-end, desde wireframes até infraestrutura cloud, com foco em performance, 
+                experiência intuitiva e otimização de agentes conversacionais.
               </p>
             </div>
 
@@ -167,18 +171,61 @@ export default function DesignerResume() {
 
               <div className="mt-8">
                 <div className="flex justify-between items-start mb-2">
+                  <h3 className="font-bold">Monest (Remota)</h3>
+                  <p className="text-pink-500 text-sm">Dez 2025 – Atual</p>
+                </div>
+                <p className="font-medium mb-2">Engenheira de Prompt</p>
+                <ul className="list-disc pl-5 text-sm space-y-1 mb-6">
+                  <li>
+                    Especializada no design e otimização de agentes conversacionais com IA, criando prompts estruturados, personas e fluxos de diálogo.
+                  </li>
+                  <li>
+                    Implementação de regras de negócio garantindo respostas consistentes, seguras e alinhadas a objetivos de produto e compliance.
+                  </li>
+                  <li>
+                    Integração com backend, avaliação contínua de performance e melhoria da qualidade das interações orientadas a impacto real no negócio.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="mt-8">
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="font-bold">Instituto de Embalagens (Barueri, SP)</h3>
+                  <p className="text-pink-500 text-sm">Mai 2025 – Dez 2025</p>
+                </div>
+                <p className="font-medium mb-2">Web Designer</p>
+                <ul className="list-disc pl-5 text-sm space-y-1 mb-6">
+                  <li>
+                    Desenvolvimento de sites, landing pages e interfaces responsivas com foco em UX/UI, performance e identidade visual.
+                  </li>
+                  <li>
+                    Integração de automações com RD Station, criando páginas otimizadas para geração de leads e nutrição de contatos.
+                  </li>
+                  <li>
+                    Edição de vídeo para campanhas digitais e conteúdo institucional, garantindo comunicação visual completa e estratégica.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="mt-8">
+                <div className="flex justify-between items-start mb-2">
                   <h3 className="font-bold">Dry Telecom (Barueri, SP)</h3>
-                  <p className="text-pink-500 text-sm">Set 2024 – Atual</p>
+                  <p className="text-pink-500 text-sm">Set 2024 – Mai 2025</p>
                 </div>
                 <p className="font-medium mb-2">Desenvolvedor Full Stack</p>
                 <ul className="list-disc pl-5 text-sm space-y-1 mb-6">
                   <li>
-                    Arquitetura de soluções full stack com React.js + TypeScript (front) e Laravel + PostgreSQL (back).
+                    Desenvolvimento fullstack utilizando React.js, PHP e TypeScript para criar soluções escaláveis e robustas.
                   </li>
                   <li>
-                    Otimização de performance com AWS: CloudFront (CDN), Lambda (serverless) e DynamoDB (banco NoSQL).
+                    Criação de wireframes e design de interface do usuário, garantindo experiência intuitiva e visualmente agradável.
                   </li>
-                  <li>Design de interfaces responsivas e prototipagem de wireframes, garantindo UX intuitivo.</li>
+                  <li>
+                    Uso de Laravel e PostgreSQL para garantir estabilidade e performance das aplicações no back-end.
+                  </li>
+                  <li>
+                    Implementação de infraestrutura AWS: CloudFront para distribuição de conteúdo, Lambda para funções serverless e DynamoDB para armazenamento de alta performance.
+                  </li>
                 </ul>
               </div>
 
